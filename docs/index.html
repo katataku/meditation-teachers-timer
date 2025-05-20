@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>瞑想教師タイマー</title>
+    <link rel="icon" type="image/png" href="images/logo.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="logo-container">
+        <img src="images/logo.png" alt="瞑想教師タイマー" class="logo">
+    </div>
+    <div class="button-container">
+        <button data-minutes="5">+5分</button>
+        <button data-minutes="15">+15分</button>
+        <button data-minutes="45">+45分</button>
+    </div>
+    <div class="clock" id="clock"></div>
+    <div class="timer" id="timer">00:00:00</div>
+    <button class="debug-button" data-minutes="0.25">+15秒</button>
+    <footer class="copyright">
+        by <a href="https://github.com/katataku/meditation-teachers-timer">Takumi Kataoka</a>
+    </footer>
+    <script src="js/clock.js"></script>
+</body>
+
+</html>
