@@ -22,4 +22,5 @@
 2. タイマー実行中は背景が薄い緑色に変化
 3. 残り10秒以下になると背景が赤色で点滅し、終了が近いことを通知
 4. タイマー終了時には自動的にリセット
+5. Web版はこちらから利用できます: [https://katataku.github.io/meditation-teachers-timer/](https://katataku.github.io/meditation-teachers-timer/)
 
